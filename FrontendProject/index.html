@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple HTML Website</title>
+
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: 3fr 1fr 1fr 1fr 1fr 3fr;
+            }
+            .bigblock {
+                background-color: #ffffff;
+                color: black;
+                padding: 50px;
+                text-align: center;
+                font-size: 1.5em;
+                border-radius: 0px;
+                border: 2px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="bigblock">Inhalt</div>
+        <div class="bigblock">Inhalt</div>
+        <div class="bigblock">Inhalt</div>
+        <div class="bigblock">Inhalt</div>
+        <div class="bigblock">Inhalt</div>
+        <div class="bigblock">Inhalt</div>
+        </div>
+    </body>
+
+</html>
